@@ -1,0 +1,40 @@
+.footer{
+    padding: 30px 4%;
+    max-width: 1000px;
+    margin: 0 auto; /* Equal space from left and right side*/
+    display: flex;
+    flex-direction: column; /* used for centering the copyright-text */
+}
+.footer-icons{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 100px;
+    margin: 40px 35px;
+}
+.footer-icons img{
+    width: 30px;
+    cursor: pointer;
+}
+.footer ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+.copyright-text{
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+    margin-top: auto;
+}
+@media (max-width: 800px) {
+    .footer-icons{
+        gap: 20px;
+    }
+    .footer ul{
+        grid-template-columns: auto auto;
+        gap: 8px;
+        font-size: 14px;
+    }
+}
