@@ -28,6 +28,9 @@ npm run dev -- --host
 ```
 It will create two links local and network, open the local link to view on desktop and the network link on your phone to view the website on mobile
 
+- Replace firebaseConfig with the one you have created from your firebase
+- Replace import.meta.env.VITE_TMDB_API_KEY with your TMDB API Key wherever its found in the project files
+
 <h3 align="center">Screenshots</h3>
 <img src="https://github.com/user-attachments/assets/8ec7094b-dc39-45d8-a5b9-f9b84d26be34"/>
 <img src="https://github.com/user-attachments/assets/3511f1d8-729f-4664-9898-e857a9b7bebb" />
@@ -35,4 +38,7 @@ It will create two links local and network, open the local link to view on deskt
 <img src="https://github.com/user-attachments/assets/c1004b2d-e807-4b25-9f45-c168977efd72" />
 <img src="https://github.com/user-attachments/assets/22834e9b-73ae-4354-a39b-82e0c000268d" />
 
-Watch this video to get detailed information on how this website is built from scratch <a href="https://www.youtube.com/watch?v=YQQD67N5pi0">Link<a/>
+Watch this video to get detailed information on how this website is built from scratch <a 
+                                                                                         href="https://www.youtube.com/watch?v=YQQD67N5pi0">Link<a/>
+                                                                                         
+<h4 align="center">Thanks for exploring this project.</h4>
